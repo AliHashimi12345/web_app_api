@@ -6,7 +6,7 @@ from api import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('facinfo/<int:pk>', views.facebook_detail),
-    path('facinfo/', views.facebook_list),
+    
+    path('facebookapi/', views.facebook_api),
 
 ]
